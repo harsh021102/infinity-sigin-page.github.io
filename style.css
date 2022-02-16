@@ -10,7 +10,7 @@ section{
     position: relative;
     display: flex;
     width: 100%;
-    min-height: 120vh;
+    height: 100vh;
     display: flex;
 }
 section .image-section{
@@ -34,12 +34,10 @@ section .form-section{
     position: relative;
     justify-content: center;
 }
-section .login-section {
+section .login-section{
     display: flex;
     width: 50%;
-    position: relative;
     height: 100%;
-    top: 5.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -114,6 +112,13 @@ section .login-section .form-box .input-box p a{
     color: #080506;
 }
 @media (max-width: 768px){
+    section{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 130vh;
+        display: flex;
+    }
     section .image-section {
         width: 100%;
         height: 100%;
@@ -124,8 +129,8 @@ section .login-section .form-box .input-box p a{
     section .login-section {
         display: flex;
         width: 100%;
-        position: relative;
         top: 0;
+        position: relative;
         height: 100%;
         justify-content: center;
         align-items: center;
@@ -133,9 +138,7 @@ section .login-section .form-box .input-box p a{
     }
     section .login-section .form-box {
         border-radius: 17px;
-        position: relative;
         width: 100%;
-        top: 3rem;
         background: rgb(255 255 255/0.92);
         padding: 40px;
         margin: 50px;
