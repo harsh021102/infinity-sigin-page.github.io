@@ -82,18 +82,13 @@ header.sticky .logo, header.sticky ul li a{
         position: relative;
         display: none;
         text-align: center;
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* gap: 1rem; */
     }
     header .specs{
         position: relative;
         display: flex;
         justify-content: space-between;
         gap: 1rem;
-        /* flex-direction: column; */
         align-items: center;
-        /* border: 1px solid black; */
     }
     header .specs li{
         position: relative;
